@@ -226,7 +226,7 @@ public class QREader {
      */
     public void stop() {
         try {
-            if (cameraRunning && cameraSource != null) {
+            if (cameraSource != null) {
                 cameraSource.stop();
                 cameraRunning = false;
             }
